@@ -1,0 +1,14 @@
+table{
+    thead {
+        th.ant-table-cell {
+          &::before {
+            display: none;
+          }
+        }
+      }
+      tbody{
+        tr{
+            //background-color: gold;
+        }
+      }
+}
